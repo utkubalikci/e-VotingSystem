@@ -118,7 +118,7 @@
 
 
 const HDWalletProvider = require('@truffle/hdwallet-provider');
-const mnemonic = 'leave hen engine miss wave cattle prefer replace doctor flight risk shell';
+const mnemonic = 'YOUR MNEMONIC';
 
 module.exports = {
   networks: {
@@ -127,7 +127,7 @@ module.exports = {
         mnemonic: {
           phrase: mnemonic
         },
-        providerOrUrl: `https://eth-sepolia.g.alchemy.com/v2/qV1dWMrg0ozx_N9IfjgNg68dGVN2eczb`,
+        providerOrUrl: `https://eth-sepolia.g.alchemy.com/v2/YOURADDRESS`,
         pollingInterval: 8000 // Polling intervali artırmak
       }),
       network_id: 11155111, // Sepolia's id
